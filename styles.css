@@ -734,6 +734,28 @@ section {
   color: #fff;
 }
 
+.btn-white-ig {
+  display: inline-block;
+  background: #fff;
+  color: var(--teal-dark);
+  font-weight: 900;
+  font-size: 1.1rem;
+  padding: 1rem 2.8rem;
+  border-radius: 50px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white-ig:hover {
+  transform: translateY(-3px) scale(1.04);
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  color: #fff;
+}
+
 /* ── FOOTER ── */
 footer {
   background: var(--dark);
@@ -1111,3 +1133,4 @@ footer p {
   }
 
 }
+
