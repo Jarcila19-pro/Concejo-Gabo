@@ -537,6 +537,12 @@ section {
   color: #fff;
 }
 
+.social-btn.whatsapp { 
+  background:#25d366;
+  color:#fff;
+}
+
+
 /* ── TEAM CARDS ── */
 .team-section {
   background: #fff;
@@ -1103,4 +1109,5 @@ footer p {
   .concejo-icon {
     font-size: 2rem;
   }
+
 }
